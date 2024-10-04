@@ -25,6 +25,8 @@ if linkage != nil
   use_frameworks! :linkage => linkage.to_sym
 end
 
+pod 'ffmpeg-kit-react-native', :subspecs => ['full-gpl'], :podspec => '../node_modules/ffmpeg-kit-react-native/ffmpeg-kit-react-native.podspec'
+
 target 'WartermarkVideoDemo' do
   config = use_native_modules!
 

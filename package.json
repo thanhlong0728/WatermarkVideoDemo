@@ -10,8 +10,13 @@
     "test": "jest"
   },
   "dependencies": {
+    "@types/react-native-video": "^5.0.20",
+    "ffmpeg-kit-react-native": "4.5.2",
     "react": "18.2.0",
-    "react-native": "0.73.3"
+    "react-native": "0.73.3",
+    "react-native-fs": "2.20.0",
+    "react-native-get-random-values": "^1.11.0",
+    "react-native-video": "5.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
